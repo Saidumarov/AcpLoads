@@ -6,7 +6,7 @@ workflows:
         NODE_ENV: development
       xcode: latest
       cocoapods: default
-      ruby: latest
+      ruby: 3.2.2   # <-- 'latest' o‘rniga aniq versiya
     scripts:
       - name: Install dependencies
         script: |
