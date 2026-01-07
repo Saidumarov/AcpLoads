@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: #eaedf2;
+        --foreground: 240 10% 3.9%;
+        --card: 0 0% 100%;
+        --card-foreground: 240 10% 3.9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 240 10% 3.9%;
+        --primary: 240 5.9% 10%;
+        --primary-foreground: 0 0% 98%;
+        --secondary: 240 4.8% 95.9%;
+        --secondary-foreground: 240 5.9% 10%;
+        --muted: 240 4.8% 95.9%;
+        --muted-foreground: 240 3.8% 46.1%;
+        --accent: 240 4.8% 95.9%;
+        --accent-foreground: 240 5.9% 10%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 240 5.9% 90%;
+        --input: 240 5.9% 90%;
+        --ring: 240 5.9% 10%;
+        --tabs: '#FFFFFF';
+        --color: '#031E30';
+        --list: '#FFFFFF';
+        --btn: '#F2F5F9';
+        --trash: '#F10F0F';
+        --edit: '#3F96D0';
+        --reload: '#546172';
+        --n: '#F2F5F9';
+        --line: '#D1DAE6';
+        --border1: 'rgb(209 218 230)';
+        --itembg: 'rgb(253, 253, 254)';
+        --search: '#3F96D0';
+        --menu: '#FFFFFF';
+        --active: 'rgba(227, 235, 248, 1)';
+        --profilebtn: 'rgba(255, 255, 255, 1)';
+        --border2: 'rgb(209 218 230)';
+        --skelton: #eaedf2;
+        --detail: 'rgba(63, 150, 208, 1)';
+        --detailt: 'rgba(63, 150, 208, 1)';
+        --tabBtn: 'rgba(242, 245, 249, 1)';
+    }
+
+    .dark:root {
+        --background: #152833;
+        --foreground: 0 0% 98%;
+        --card: 240 10% 3.9%;
+        --card-foreground: 0 0% 98%;
+        --popover: 240 10% 3.9%;
+        --popover-foreground: 0 0% 98%;
+        --primary: 0 0% 98%;
+        --primary-foreground: 240 5.9% 10%;
+        --secondary: 240 3.7% 15.9%;
+        --secondary-foreground: 0 0% 98%;
+        --muted: 240 3.7% 15.9%;
+        --muted-foreground: 240 5% 64.9%;
+        --accent: 240 3.7% 15.9%;
+        --accent-foreground: 0 0% 98%;
+        --destructive: 0 72% 51%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 240 3.7% 15.9%;
+        --input: 240 3.7% 15.9%;
+        --ring: 240 4.9% 83.9%;
+        --tabs: '#2C495A';
+        --color: '#fff';
+        --list: '#2C495A';
+        --btn: '#2C495A';
+        --trash: '#FF6565';
+        --edit: '#76C8FF';
+        --reload: '#FFFFFF';
+        --n: '#4A6778';
+        --line: '#4A6778';
+        --border1: 'rgb(44 73 90)';
+        --itembg: 'rgb(32 56 69)';
+        --search: '#3F96D0';
+        --menu: '#2C495A';
+        --active: 'rgb(39, 64, 79)';
+        --profilebtn: 'rgba(44, 73, 90, 1)';
+        --border2: 'rgb(209 218 230)';
+        --skelton: #4a6778;
+        --detail: 'rgba(63, 150, 208, 1)';
+        --detailt: 'rgba(118, 200, 255, 1)';
+        --tabBtn: 'rgba(26, 49, 62, 1)';
+    }
+}
+
+@font-face {
+    font-family: Bicubik;
+    src: url(./assets/fonts/Bicubik.OTF);
+}
+
+.text-label {
+    color: var(--color);
+}
+
+.list-group {
+    background-color: var(--list);
+    /* color: rgb(39, 64, 79); */
+}
