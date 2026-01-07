@@ -4,7 +4,7 @@ workflows:
     environment:
       vars:
         NODE_ENV: development
-        EXPO_TOKEN: $EXPO_TOKEN
+        EXPO_TOKEN: 7z7bGNQKuBU46jwfjmtOQh4Ftj3JdlDO-V-7LoR9
       xcode: latest
       cocoapods: default
       ruby: 3.2.2
