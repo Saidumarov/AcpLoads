@@ -4,6 +4,7 @@ workflows:
     environment:
       vars:
         NODE_ENV: development
+        EXPO_TOKEN: $EXPO_TOKEN
       xcode: latest
       cocoapods: default
       ruby: 3.2.2
@@ -17,6 +18,6 @@ workflows:
           npm install -g eas-cli
       - name: Build iOS
         script: |
-          eas build -p ios --profile preview
+          eas build -p ios --profile preview --non-interactive
     artifacts:
       - build/ios/*.ipa
